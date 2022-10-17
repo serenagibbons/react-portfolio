@@ -1,0 +1,66 @@
+/***** General *****/
+body {
+  font-size: 14px !important;
+}
+
+.btn {
+  border-radius: 4px !important;
+}
+
+a svg {
+  color: #FFFFFF8C;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+a svg:hover {
+  color: rgba(255, 255, 255, 0.75);
+  transition: ease-in-out 0.3s;
+}
+
+/***** Navigation *****/
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  padding: 0 20px;
+}
+
+.navbar-collapse button {
+  margin-left: 20px;
+}
+
+/***** Home *****/
+hr {
+  width: 64px;
+  border-top: 1px solid black;
+  opacity: 1 !important;
+  margin-top: 60px !important;
+}
+
+/***** Heading *****/
+.heading {
+  display: flex;
+  align-items: baseline;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -5px;
+  width: 200px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+/***** Skills *****/
+.card-body {
+  background-color: rgba(255, 255, 255, 0.05);
+  z-index: 10;
+  border-radius: 4px;
+  border: none;
+}
+
+/***** Contact *****/
+.contact {
+  align-items: center;
+}
