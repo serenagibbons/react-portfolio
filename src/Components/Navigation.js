@@ -1,5 +1,6 @@
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { Github, Linkedin } from 'react-bootstrap-icons';
+import resume from '../assets/Resume_Serena_Gibbons.pdf';
 
 function Navigation() {
   return (
@@ -11,7 +12,7 @@ function Navigation() {
           <Nav.Link href="#home" className='navbar-link'>Home</Nav.Link>
           <Nav.Link href="#skills" className='navbar-link'>Skills</Nav.Link>
           <Nav.Link href="#projects" className='navbar-link'>Projects</Nav.Link>
-          <Nav.Link href="" target="_blank" className='navbar-link'>Resumé</Nav.Link>
+          <Nav.Link href={resume} target="_blank" className='navbar-link'>Resumé</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       <div className="social-icons">

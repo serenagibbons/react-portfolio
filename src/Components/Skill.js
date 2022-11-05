@@ -1,17 +1,19 @@
 import { Card } from 'react-bootstrap';
 
-function Skill() {
+function Skill(props) {
+    const skillItems = props.item.items.map(skill => {
+        return (
+            <li>{skill}</li>
+        );
+    })
+
     return (
         <Card bg="dark" variant="dark">
             <Card.Body>
-                <Card.Title>Skill Title</Card.Title>
+                <Card.Title>{props.item.title}</Card.Title>
                 <Card.Text>
                     <ul>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
+                        {skillItems}
                     </ul>
                 </Card.Text>
             </Card.Body>
