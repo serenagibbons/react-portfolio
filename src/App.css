@@ -13,9 +13,14 @@ a svg {
   font-size: 18px;
 }
 
-a svg:hover {
-  color: rgba(255, 255, 255, 0.75);
+footer a, a svg:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
   transition: ease-in-out 0.3s;
+}
+
+footer a {
+  color: #FFFFFF8C !important;
+  text-decoration: none !important;
 }
 
 .btn.btn-light {
@@ -25,16 +30,12 @@ a svg:hover {
 }
 
 /***** Navigation *****/
-nav.navbar .navbar-nav .nav-link.navbar-link {
-  padding: 0 20px;
+nav.navbar .social-icons a svg {
+  margin: 0 8px;
 }
 
-.navbar-collapse button {
-  margin-left: 20px;
-}
-
-nav.navbar .social-icons{
-  padding-right: 20px;
+nav.navbar .social-icons {
+  margin-right: 8px;
 }
 
 /***** Home *****/
@@ -83,4 +84,14 @@ hr {
 /***** Contact *****/
 .contact {
   align-items: center;
+}
+
+
+/***** Media Queries *****/
+@media screen and (max-width: 768px) {
+  /*** Navigation ***/
+  nav.navbar .social-icons a svg{
+    display: none;
+    visibility: hidden;
+  }
 }

@@ -4,10 +4,10 @@ import { Github, Linkedin } from 'react-bootstrap-icons';
 function Footer() {
     return (
         <footer className="footer bg-dark text-white">
-            <Container>
+            <Container className="col-xxl-8 py-3">
                 <Row>
                     <Col sm={6} className="text-center text-sm-start">
-                        <p>Copyright 2022 Serena Gibbons.</p>
+                        <a href="https://github.com/serenagibbons/react-portfolio" target="_blank" rel="noreferrer">Copyright {new Date().getFullYear()} Serena Gibbons.</a>
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
                     <div className="social-icons">
