@@ -16,10 +16,11 @@ const skills = [
         items: [
             "ASP.NET MVC",
             "React",
+            "jQuery",
+            "Flask",
             "Android",
             "Bootstrap",
             "JavaFx",
-            "jQuery",
             "WPF"
         ]
     },
@@ -29,7 +30,8 @@ const skills = [
             "T-SQL",
             "Microsoft SQL Server",
             "Azure SQL Database",
-            "Google Firebase"
+            "Google Firebase",
+            "SQLite"
         ]
     },
     {
@@ -40,6 +42,7 @@ const skills = [
             "XML",
             "JSON",
             "AJAX",
+            "R",
             "Bash Shell",
             "PowerShell"
         ]

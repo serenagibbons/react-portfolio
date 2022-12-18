@@ -3,7 +3,7 @@ import { Github, Linkedin } from 'react-bootstrap-icons';
 
 function Footer() {
     return (
-        <footer className="footer bg-dark text-white">
+        <footer className="footer bg-darkblue text-white">
             <Container className="col-xxl-8 py-3">
                 <Row>
                     <Col sm={6} className="text-center text-sm-start">

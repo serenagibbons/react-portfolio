@@ -1,6 +1,20 @@
 /***** General *****/
+:root {
+  --lightgreen: rgb(206, 200, 166);
+  --darkblue: #0d1117;
+}
+
 body {
+  margin: 0 auto;
   font-size: 14px !important;
+}
+
+.bg-darkblue {
+  background-color: #0d1117;
+}
+
+.bg-lightgreen {
+  background-color: rgb(206, 200, 166) !important;
 }
 
 .btn {
@@ -13,8 +27,9 @@ a svg {
   font-size: 18px;
 }
 
-footer a, a svg:hover {
-  color: rgba(255, 255, 255, 0.75) !important;
+footer a:hover, a svg:hover {
+  color: var(--lightgreen) !important;
+  opacity: 0.8 !important;
   transition: ease-in-out 0.3s;
 }
 
@@ -23,10 +38,14 @@ footer a {
   text-decoration: none !important;
 }
 
-.btn.btn-light {
+.btn-lightgreen {
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.75);
-  color: rgba(255, 255, 255, 0.75);
+  border: 1px solid var(--lightgreen) !important;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+.btn-lightgreen:hover, .btn-lightgreen:active {
+  background-color: var(--lightgreen) !important;
+  color: var(--darkblue) !important;
 }
 
 /***** Navigation *****/
@@ -38,11 +57,16 @@ nav.navbar .social-icons {
   margin-right: 8px;
 }
 
+.navbar-link:hover {
+  color: var(--lightgreen) !important;
+  opacity: 0.8;
+}
+
 /***** Home *****/
 hr {
   width: 64px;
-  border-top: 1px solid black;
-  opacity: 1 !important;
+  border-top: 1px solid var(--lightgreen) !important;
+  opacity: 0.8 !important;
   margin-top: 60px !important;
 }
 
@@ -50,6 +74,7 @@ hr {
 .heading {
   display: flex;
   align-items: baseline;
+  font-weight: 400 !important;
 }
 
 .heading::after {
@@ -60,7 +85,8 @@ hr {
   width: 200px;
   height: 1px;
   margin-left: 20px;
-  background-color: white;
+  background-color: var(--lightgreen);
+  opacity: 0.6;
 }
 
 /***** Skills *****/
@@ -73,12 +99,17 @@ hr {
 }
 
 /***** Projects *****/
+.project-links {
+  margin: 10px 0;
+}
+
 .tech-stack {
   display: flex;
 }
 
 .tech-stack > p {
-  margin: 10px;
+  margin: 0 10px;
+  opacity: 0.6;
 }
 
 /***** Contact *****/

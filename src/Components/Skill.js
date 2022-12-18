@@ -8,7 +8,7 @@ function Skill(props) {
     })
 
     return (
-        <Card bg="dark" variant="dark">
+        <Card className="bg-lightgreen text-dark">
             <Card.Body>
                 <Card.Title>{props.item.title}</Card.Title>
                 <Card.Text>

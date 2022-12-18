@@ -17,9 +17,9 @@ function Skills() {
     })
 
     return (
-        <section id="skills" className="bg-dark text-white">
+        <section id="skills" className="bg-darkblue text-white">
             <Container className="col-xxl-8 py-5">
-            <h2 className="lead fw-bold heading py-5">Skills</h2>
+            <h2 className="lead heading py-5">Skills</h2>
             <Row>
                 { skills }
             </Row>

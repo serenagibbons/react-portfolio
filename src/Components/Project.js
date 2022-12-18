@@ -14,9 +14,9 @@ function Project(props) {
           </a>
         </Col>
         <Col md={5}>
-          <h3>{props.item.title}</h3>
+          <h3 className="project-title">{props.item.title}</h3>
           <p>{props.item.description}</p>
-          <div className="tech-stack flex-row-reverse">
+          <div className="tech-stack flex-row-reverse flex-wrap">
             {tech}
           </div>
           <div className="project-links text-end">

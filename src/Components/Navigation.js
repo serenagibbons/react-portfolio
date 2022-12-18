@@ -4,7 +4,7 @@ import resume from '../assets/Resume_Serena_Gibbons.pdf';
 
 function Navigation() {
   return (
-    <Navbar expand="md" bg="dark" variant="dark" className="sticky-top">
+    <Navbar expand="md" variant="dark" className="sticky-top bg-darkblue">
     <Container>
       <Navbar.Brand href="#home">Serena</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -19,7 +19,7 @@ function Navigation() {
           <a href="https://www.linkedin.com/in/serenagibbons/" target="_blank" rel="noreferrer"><Linkedin/></a>
           <a href="https://github.com/serenagibbons" target="_blank" rel="noreferrer"><Github/></a>
         </div>
-        <a href="mailto:gibbons.serena@gmail.com" className="btn btn-light">Let's Connect</a>
+        <a href="mailto:gibbons.serena@gmail.com" className="btn btn-lightgreen">Let's Connect</a>
       </Navbar.Collapse>
     </Container>
   </Navbar>
